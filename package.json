@@ -1,0 +1,27 @@
+{
+  "name": "emil",
+  "version": "1.0.0",
+  "description": "form",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "lint:js": "node_modules/eslint/bin/eslint.js ./ ./**/*.js --fix; exit 0",
+    "lint:css": "node_modules/csslint/cli.js public/css/; exit 0"
+  },
+  "author": "Sasha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "example": "0.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.8",
+    "nodemon": "^2.0.4",
+    "react-router-dom": "^5.2.0",
+    "react-slick": "^0.26.1"
+  }
+}
