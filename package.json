@@ -23,7 +23,7 @@
     "cors": "^2.8.5",
     "example": "0.0.0",
     "express": "^4.17.1",
-    "nodemailer": "^6.4.8",
+    "nodemailer": "^6.4.16",
     "nodemon": "^2.0.4",
     "react-router-dom": "^5.2.0",
     "react-slick": "^0.26.1"
